@@ -27,9 +27,9 @@ dotenv.config();
 
 
 
-const url = "mongodb://localhost:27017/petooDB"
-// const url = process.env.DB_URL;
-mongoose.connect(url).catch((error => handleError(error)));
+//const url = "mongodb://localhost:27017/petooDB"
+ const DBurl = process.env.DB_URL;
+mongoose.connect(DBurl).catch((error => handleError(error)));
 // mongoose.connect(url, { useNewUrlParser: true });
 
 mongoose.connection.once("open",()=>console.log("db is connected"));
