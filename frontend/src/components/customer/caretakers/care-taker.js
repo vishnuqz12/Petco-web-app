@@ -8,7 +8,7 @@ function CareTaker(){
     const [CareTaker,setCare] = useState([]);
 
     useEffect(()=>{
-      Axios.get("http://172.31.4.239:5000/api/newcaretakers")
+      Axios.get("http://65.0.180.125:5000/api/newcaretakers")
       .then(res=>{
           console.log(res.data);
           setCare(res.data)
