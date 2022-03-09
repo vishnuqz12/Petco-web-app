@@ -28,8 +28,18 @@ dotenv.config();
 
 
 //const url = "mongodb://localhost:27017/petooDB"
- const DBurl = process.env.DB_URL;
-mongoose.connect(DBurl).catch((error => handleError(error)));
+// const DBurl = process.env.DB_URL;
+mongoose
+  .connect(`mongodb+srv://vishnuqz:vishnu9744@cluster0.cs8wg.mongodb.net/petcoWeb?retryWrites=true&w=majority`, {
+    usenewurlparser: true,
+    useunifiedtopology: true,
+  })
+  .then(() => {
+    console.log("Successfully connected ");
+  })
+  .catch((error) => {
+    console.log(`can not connect to database, ${error}`);
+  });
 // mongoose.connect(url, { useNewUrlParser: true });
 
 mongoose.connection.once("open",()=>console.log("db is connected"));
