@@ -51,7 +51,7 @@ const HandleSubmit = async (e)=>{
     }
 console.log(datas);
     try {
-        Axios.post("http://localhost:8000/api/caretaker",datas);
+        Axios.post("http://65.0.180.125/api/caretaker",datas);
        } catch (error) {
          console.log("erroorrrrrrrrrrrrrrrrrrrrrrrrrrr"+error);
        }
