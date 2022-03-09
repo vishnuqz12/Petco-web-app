@@ -1,0 +1,30 @@
+
+.petmarket-head{
+    margin: auto;
+    color: darksalmon;
+}
+
+label{
+    font-size: small;
+    font-weight: bold;
+}
+
+.market-div{
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+  background-color: rgb(238, 235, 235);
+}
+.market-div input {
+    font-size: small;
+}
+.market-div textarea{
+    font-size: small;
+}
+.add-img{
+    font-size: small;
+}
+
+.description{
+height: 100px;
+}

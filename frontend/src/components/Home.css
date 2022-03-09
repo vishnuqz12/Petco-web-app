@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Markazi+Text&family=Montserrat&family=Nunito+Sans&family=Oxygen&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Montserrat&family=Nunito+Sans&family=Oxygen&family=Passion+One&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Mitr&family=Montserrat&family=Nunito+Sans&family=Oxygen&family=Passion+One&family=Rancho&display=swap');
+.home{
+   
+    display: block;
+
+} 
+
+.home li{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 17px;
+margin : 5px;
+cursor: pointer;
+text-decoration: none;
+}
+.navbar-brand{
+    font-family: 'Mitr', sans-serif;
+    margin: 10px;
+margin-left: 60px;
+font-size: 60px;
+color: rgb(18, 18, 19);
+}
+/* .nav-link:hover{
+    color:darkslategray;
+}
+ a:link{
+    color: lightslategrey;
+
+} */
+
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.petcare-img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.petcare-about{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+    color: darkslategray;
+    
+}
+
+.home-footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(222, 223, 223);
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+    font-size: 35px;
+
+}

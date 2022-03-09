@@ -1,0 +1,13 @@
+
+
+.admin-login{
+    height: 300px;
+    width: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.iderror{
+  color: red;
+}

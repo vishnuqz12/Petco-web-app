@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&family=Oswald&family=Oxygen&family=Passion+One&family=Rancho&family=Teko:wght@500&display=swap');
+
+
+
+   .navbar-head {
+        font-family: 'Mitr', sans-serif;
+    text-decoration: none;
+    
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to left,
+             blue,
+            red
+            );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: auto;
+    }
+
+  
+        .search-tag{
+            text-align: center;
+            margin: 10px;
+            display:list-item;
+        }
+        .search-tag input{
+            margin-right: 16px;
+            border: 1px solid grey;
+            font-size: 17px;
+            background-color: rgb(248, 236, 236);
+            border-radius: 5px;
+        }
+        .search-tag button{
+            font-size: 15px;
+            border-radius: 20px;
+            padding: 0 10px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+
+        .newclinic{
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            background-color:#f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        
+        .newclinic button{
+            padding: 0 20px;
+            background-color: #87ceeb;
+            font-weight: bold;
+            border-radius: 10%;
+        }
+
+        .newclinic span{
+            font-weight: bold;
+        }

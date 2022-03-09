@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+.customerlogin{
+  font-family: 'Josefin Sans', sans-serif;
+color: rgb(62, 62, 252);
+  text-align: center;
+}
+
+
+.Login{
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 4px 4px gray;
+}
+
+.btn{
+  font-size: small;
+margin-top: 10px;
+}
+
+
+  
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
