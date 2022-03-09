@@ -43,7 +43,7 @@ function Newcustomer(){
          password:password
        }
        try {
-        Axios.post("http://localhost:8000/api/newuser",data);
+        Axios.post("http://172.31.4.239:5000/api/newuser",data);
        } catch (error) {
          console.log("erroorrrrrrrrrrrrrrrrrrrrrrrrrrr"+error);
        }
