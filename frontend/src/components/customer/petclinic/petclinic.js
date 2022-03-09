@@ -10,7 +10,7 @@ function Petclinic(){
 
   
     useEffect(()=>{
-      Axios.get("http://172.31.4.239:5000/api/petclinics")
+      Axios.get("http://65.0.180.125:5000/api/petclinics")
       .then(res=>{
           console.log(res.data);
           setClinic(res.data)
