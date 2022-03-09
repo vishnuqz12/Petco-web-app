@@ -30,7 +30,7 @@ const [place,setPlace] = useState('');
 //     // data.append("consultation", consultation);
 
 // console.log(data);
-//     Axios.post("http://localhost:8000/api/caretaker", data)
+//     Axios.post("http://172.31.4.239:5000/api/caretaker", data)
 //       .then(res => console.log(res))
 //       .catch(err => console.log(err));
 //   };
