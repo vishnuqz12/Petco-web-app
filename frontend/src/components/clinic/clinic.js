@@ -48,7 +48,7 @@ const HandleSubmit = async (e)=>{
     }
 console.log(datas);
     try {
-        Axios.post("http://172.31.4.239:5000/api/newclinic",datas);
+        Axios.post("http://65.0.180.125:5000/api/newclinic",datas);
        } catch (error) {
          console.log("erroorrrrrrrrrrrrrrrrrrrrrrrrrrr"+error);
        }
