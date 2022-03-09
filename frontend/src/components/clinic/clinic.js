@@ -26,7 +26,7 @@ const [consultation,setConsultation] = useState('');
 //     data.append("consultation", consultation);
 
 // console.log(data);
-//     Axios.post("http://localhost:8000/api/clinic", data)
+//     Axios.post("http://172.31.4.239:5000/api/clinic", data)
 //       .then(res => console.log(res))
 //       .catch(err => console.log(err));
 //   };
@@ -48,7 +48,7 @@ const HandleSubmit = async (e)=>{
     }
 console.log(datas);
     try {
-        Axios.post("http://localhost:8000/api/newclinic",datas);
+        Axios.post("http://172.31.4.239:5000/api/newclinic",datas);
        } catch (error) {
          console.log("erroorrrrrrrrrrrrrrrrrrrrrrrrrrr"+error);
        }
