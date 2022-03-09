@@ -50,6 +50,6 @@ mongoose.connection.once("open",()=>console.log("db is connected"));
 //     res.sendFile(path.join(__dirname,'./frontend/build','index.html'));
 // })
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT,()=>console.log(`port is connected to ${PORT}`))
 
