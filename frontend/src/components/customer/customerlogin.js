@@ -16,7 +16,7 @@ function Customerlogin(){
    const navigate = useNavigate();
    const HandleSubmit = async (event)=>{
        event.preventDefault();
-       Axios.get("http://172.31.4.239:5000/api/olduser").then((response)=>{
+       Axios.get("http://65.0.180.125:5000/api/olduser").then((response)=>{
          console.log(response.data);
          if(response.data == password){
                   alert("successfully logged")
