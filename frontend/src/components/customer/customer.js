@@ -9,7 +9,7 @@ function Customer(){
     const [Alldata,setAlldata] = useState([])
 
    useEffect(()=>{
-    Axios.get("http://localhost:8000/api/petmarket")
+    Axios.get("http://172.31.4.239:5000/api/petmarket")
     .then(res=>{
         console.log(res.data);
         setAlldata(res.data)
