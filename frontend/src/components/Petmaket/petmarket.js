@@ -28,7 +28,7 @@ const send = event => {
     data.append("description", description);
 
 console.log(data);
-    Axios.post("http://172.31.4.239:5000/api/market", data)
+    Axios.post("http://65.0.180.125:5000/api/market", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
   };
@@ -50,7 +50,7 @@ console.log(data);
 //     }
 // console.log(datas);
 //     try {
-//         Axios.post("http://localhost:8000/api/market",datas);
+//         Axios.post("http://65.0.180.125/api/market",datas);
 //        } catch (error) {
 //          console.log("erroorrrrrrrrrrrrrrrrrrrrrrrrrrr"+error);
 //        }
